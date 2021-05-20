@@ -2,7 +2,7 @@ import os
 import cv2
 import pandas as pd
 import numpy as np
-from prepro_startDetection_auto import extract_time_start
+from utils.prepro_startDetection_auto import extract_time_start
 
 
 def get_framename(video_path, repo):
